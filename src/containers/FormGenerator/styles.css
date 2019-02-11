@@ -1,0 +1,33 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.item {
+    flex: 1;
+    padding: 25px;
+    cursor: pointer;
+    background: blueviolet;
+    border: 1px solid wheat;
+    flex-basis: 16%;
+    width: 16%;
+    box-sizing: border-box;
+
+}
+.add-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: red;
+    border-radius: 50%;
+    display: flex;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 28px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
